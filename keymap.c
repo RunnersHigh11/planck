@@ -5,6 +5,17 @@
 // Layer names don't all need to be of the same length, obviously, and you can also skip them
 // entirely and just use numbers.
 
+#define _QWERTY 0
+#define _LOWER 1
+#define _RAISE 2
+#define _ADJUST 16
+
+enum planck_keycodes {
+  QWERTY = SAFE_RANGE,
+  LOWER,
+  RAISE
+};
+
 // Fillers to make layering more clear
 #define _______ KC_TRNS
 #define XXXXXXX KC_NO
