@@ -5,6 +5,8 @@
 #include "action_layer.h"
 #ifdef AUDIO_ENABLE
   #include "audio.h"
+#ifdef BACKLIGHT_ENABLE
+#include "backlight.h"
 #endif
 #include "eeconfig.h"
 
